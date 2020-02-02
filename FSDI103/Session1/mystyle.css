@@ -33,3 +33,14 @@ h4 {
 .fw-300{
     font-weight: 300;
 }
+
+/** Header **/
+
+.site-header {
+    background-color: 333333;
+    padding: 10px 0px 30px 0px;
+}
+
+.site-header.init {
+    
+}
