@@ -43,4 +43,7 @@ h4 {
 
 .site-header.init {
     background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
 }
