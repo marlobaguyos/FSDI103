@@ -37,12 +37,12 @@ h4 {
 /** Header **/
 
 .site-header {
-    background-color: 333333;
+    background-color: #333333;
     padding: 10px 0px 30px 0px;
 }
 
 .site-header.init {
-    background-image: url(../img/header.jpg);
+    background-image: url(/img/header.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
