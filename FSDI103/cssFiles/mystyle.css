@@ -104,18 +104,17 @@ h4 {
     color:tomato;
 }
 
-.icon-containner {
+.icon-us {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.icon {
+/* .icon {
     border: 1px solid #b5b5b5;
     background-color: #f5f5f5;
     flex: 0 0 calc(33.3% - 10px);
     margin-bottom: 20px;
-}
+} */
 
 /** products **/
 
