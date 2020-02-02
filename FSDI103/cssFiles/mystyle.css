@@ -34,6 +34,29 @@ h4 {
     font-weight: 300;
 }
 
+/** button **/
+
+.button {
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 100%
+}
+
+.button-green {
+    background-color: #71b100;
+}
+
+.button-yellow {
+    background-color: #e08709;
+}
+
 /** Header **/
 
 .site-header {
@@ -79,4 +102,59 @@ h4 {
 
 .menu a:hover {
     color:tomato;
+}
+
+.icon-containner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon {
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+    flex: 0 0 calc(33.3% - 10px);
+    margin-bottom: 20px;
+}
+
+/** products **/
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+    flex: 0 0 calc(33.3% - 10px);
+    margin-bottom: 20px;
+}
+
+.product-content {
+    margin: 0px;
+    padding: 20px;
+}
+
+.price {
+    color: #71b100;
+    font-weight: bolder;
+}
+
+.icon-characteristics {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+
+}
+
+.icon-characteristics li {
+    display: flex;
+}
+
+.icon-characteristics li img {
+    margin-right: 20px;
 }
