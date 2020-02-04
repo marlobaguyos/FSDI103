@@ -1,0 +1,41 @@
+/* Univeral Selector - select everything at once and overwrite all other selector */
+/* * {
+    margin: 0;
+    padding: 0;
+    color: red;
+} */
+
+/* 
+Example
+p {
+    color: white;
+    background-color: lightblue;
+} 
+*/
+
+body {
+    color: #878787;
+    margin: 0;
+}
+header {
+    background-color: orange;
+}
+
+h1 {
+    font-size: 90px;
+    color: white;
+}
+
+h2 {
+    font-size: 53px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #48525c;
+}
+
+/* ID selector */
+#primary-content {
+    border: 3px solid red;
+}
