@@ -1,3 +1,6 @@
+/* You can import a stylesheet inside another stylesheet */
+@import url(../cssFiles/import-style.css);
+
 /* Applys to all*/
 body {
     text-align: center;
