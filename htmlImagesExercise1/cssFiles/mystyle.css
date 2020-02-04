@@ -17,9 +17,10 @@ body {
     color: #878787;
     margin: 0;
 }
-header {
+
+/* header {
     background-color: orange;
-}
+} */
 
 h1 {
     font-size: 90px;
@@ -35,7 +36,28 @@ h3 {
     color: #48525c;
 }
 
+.main-header {
+    background-color: orange;
+}
+
+/* Classes start with a period.
+Classes let use target multiple elements */
+.primary-content {
+    text-align: center;
+}
+
+/* .secondary-content {
+    border-top: 2px solid lightgrey;
+} */
+
+.t-border {
+    border-top: 2px solid lightgrey;
+}
+
+
 /* ID selector */
-#primary-content {
-    border: 3px solid red;
+#main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px orange;
 }
