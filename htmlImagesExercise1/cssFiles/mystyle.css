@@ -86,3 +86,8 @@ a:visited {
 a:hover {
     color: forestgreen;
 }
+
+a:focus {
+    color: white;
+    background-color: orange;
+}
