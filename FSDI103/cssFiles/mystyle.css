@@ -157,3 +157,16 @@ h4 {
 .icon-characteristics li img {
     margin-right: 20px;
 }
+
+/* Contact */
+
+legend {
+    font-size: 20px;
+    color: #4f4f4f;
+}
+
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
