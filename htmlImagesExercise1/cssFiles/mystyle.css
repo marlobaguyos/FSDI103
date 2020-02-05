@@ -13,6 +13,8 @@ body {
     
     h2 {
         font-size: 53px;
+        text-decoration: underline;
+        font-weight: normal;
     }
     
     h3 {
@@ -24,6 +26,7 @@ body {
     
     a:link {
         color: orange;
+        text-decoration: none;
     }
     
     a:visited {
@@ -54,7 +57,7 @@ body {
     
     .title {
         color: white;
-        font-size: 1.625em; /* 26/16 = 1.625em */
+        font-size: 1.625rem; /* 26/16 = 1.625em */
     }
     
     .primary-content,
@@ -62,7 +65,8 @@ body {
         width: 60%;
     }
 
-    .primary-content {
+    .primary-content,
+    .main-header {
         text-align: center;
     }
 
