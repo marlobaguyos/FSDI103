@@ -40,6 +40,19 @@ h3 {
     background-color: orange;
 }
 
+
+.title {
+    color: white;
+    font-size: 26px;
+}
+
+/* decendent selector  */
+ol li {
+    background-color: tomato;
+    color: white;
+    margin-bottom: 5px;
+}
+
 /* Classes start with a period.
 Classes let use target multiple elements */
 .primary-content {
@@ -60,4 +73,16 @@ Classes let use target multiple elements */
     padding-top: 60px;
     padding-bottom: 60px;
     border-bottom: solid 10px orange;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: forestgreen;
 }
