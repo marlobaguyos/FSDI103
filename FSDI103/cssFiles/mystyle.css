@@ -170,3 +170,37 @@ label {
     text-transform: uppercase;
     display: block;
 }
+
+.contact p{
+    font-size: 14px;
+    color: #4f4f4f;
+    margin: 20px 0 0 0;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+    background-color: #e1e1e1e1;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 0px;
+}
+
+.form-contact {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
