@@ -1,94 +1,87 @@
-/* Univeral Selector - select everything at once and overwrite all other selector */
-/* * {
-    margin: 0;
-    padding: 0;
-    color: red;
-} */
-
-/* 
-Example
-p {
-    color: white;
-    background-color: lightblue;
-} 
-*/
+/* Type Selectors ------------------ */
 
 body {
     color: #878787;
     margin: 0;
-}
+    font-size: 1em;
+    }
+    
+    h1 {  
+        font-size: 5.625em; /* 90px/16px = 5.625em */
+        color: white;
+    }
+    
+    h2 {
+        font-size: 53px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        color: #48525c;
+    }
+    
+    /* Pseudo-classes ------------------ */
+    
+    a:link {
+        color: orange;
+    }
+    
+    a:visited {
+        color: lightblue;
+    }
+    
+    a:hover {
+        color: forestgreen;
+    }
+    
+    a:active {
+        color: lightcoral;
+    }
+    
+    /* ID Selectors -------------------- */
+    
+    #main-footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-bottom: solid 10px orange;
+    }
+    
+    /* Class Selectors ----------------- */
+    
+    .main-header {
+        background-color: orange;
+    }
+    
+    .title {
+        color: white;
+        font-size: 1.625em; /* 26/16 = 1.625em */
+    }
+    
+    .primary-content,
+    .secondary-content {
+        width: 60%;
+    }
 
-/* header {
-    background-color: orange;
-} */
+    .primary-content {
+        text-align: center;
+    }
 
-h1 {
-    font-size: 90px;
-    color: white;
-}
-
-h2 {
-    font-size: 53px;
-}
-
-h3 {
-    font-size: 20px;
-    color: #48525c;
-}
-
-.main-header {
-    background-color: orange;
-    width: 50%;
-}
-
-
-.title {
-    color: white;
-    font-size: 26px;
-}
-
-/* decendent selector  */
-ol li {
-    background-color: tomato;
-    color: white;
-    margin-bottom: 5px;
-}
-
-/* Classes start with a period.
-Classes let use target multiple elements */
-.primary-content {
-    text-align: center;
-}
-
-/* .secondary-content {
-    border-top: 2px solid lightgrey;
-} */
-
-.t-border {
-    border-top: 2px solid lightgrey;
-}
-
-
-/* ID selector */
-#main-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    border-bottom: solid 10px orange;
-}
-
-a:link {
-    color: orange;
-}
-
-a:visited {
-    color: lightblue;
-}
-
-a:hover {
-    color: forestgreen;
-}
-
-a:focus {
-    color: white;
-    background-color: orange;
-}
+    .t-border {
+        border-top: 2px solid lightgrey;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
