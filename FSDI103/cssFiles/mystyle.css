@@ -197,10 +197,11 @@ h4 {
 
 .bottom-section .blog{
     flex-basis: 60%;
+    justify-content: space-between;
 }
 
 .bottom-section .public-comments {
-    flex-basis: calc(40% - 20px);
+    flex-basis: calc(60% - 20px);
 }
 
 .comment {
@@ -233,15 +234,17 @@ h4 {
 .new-blog {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .new-blog .blog-img {
-    flex-basis: 40%;
+    width: 40%;
 
 }
 
 .new-blog .blog-text {
-    flex-basis: calc(60% - 30px);
+    flex-basis: calc(60% - 20px);
+    padding-left: 5%;
 }
 
 /* Contact */
