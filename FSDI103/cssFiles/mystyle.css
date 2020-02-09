@@ -292,3 +292,15 @@ input[type="radio"] {
     justify-content: space-between;
     align-items: center;
 }
+
+/* About us */
+
+.content-about {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 2rem;
+}
+
+.about-text blockquote{
+  font-weight: 900;
+}
