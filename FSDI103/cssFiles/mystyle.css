@@ -238,7 +238,7 @@ h4 {
 
 .new-blog .blog-img {
     width: 30%;
-    margin: auto;
+    margin-right: 10px;
 }
 
 .new-blog .blog-text {
