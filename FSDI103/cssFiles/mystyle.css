@@ -233,7 +233,6 @@ h4 {
 
 .new-blog {
     display: flex;
-    flex-wrap:wrap;
     justify-content: space-between;
 }
 
