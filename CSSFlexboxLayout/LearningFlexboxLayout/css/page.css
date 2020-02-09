@@ -31,3 +31,11 @@ p {
 	background: #3db5da;
 	border-radius: 3px;
 }
+
+.pogi {
+  color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #444;
+	border-radius: 3px;
+}
