@@ -232,7 +232,6 @@ h4 {
 }
 
 .new-blog {
-    display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -244,7 +243,6 @@ h4 {
 
 .new-blog .blog-text {
     flex-basis: calc(60% - 20px);
-    padding-left: 10%;
 }
 
 /* Contact */
