@@ -1,0 +1,37 @@
+/* Global Styling */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font: 16px;
+  line-height: 1.5;
+}
+
+
+h1 {
+  font-size: 38px;
+}
+
+
+.index-header {
+  background-image: url(../img/Logo/Original.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 50%;
+}
+
+.nav-item {
+	color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #404141;
+  border-radius: 3px;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
