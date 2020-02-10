@@ -1,9 +1,15 @@
 /* Global Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font: 16px;
   line-height: 1.5;
+  background-color:  #EBE65E;
 }
 
 
@@ -11,8 +17,9 @@ h1 {
   font-size: 38px;
 }
 
+/* Header Styling */
 
-.index-header {
+.topHeader-index {
   background-image: url(../img/Logo/Original.png);
   background-position: center center;
   background-size: cover;
@@ -20,18 +27,45 @@ h1 {
   min-height: 50%;
 }
 
-.nav-item {
-	color: #fff;
-	padding: 15px;
-	margin: 5px;	
-	background: #404141;
-  border-radius: 3px;
-  list-style: none;
+/* Nav Styling */
+
+.container {
+  width:  98%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
 }
 
-.nav-item a {
+
+.navLink-index li,
+.navLink-index a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
   text-decoration: none;
-  color: white;
-  font-size: 150%;
 }
+
+.navLink-index li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0% 1%;
+  border: 2px solid #141413;
+}
+
+.logo-index {
+  cursor: pointer;
+}
+
+/* Main Styling */
+
+.text-center {
+  text-align: center;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
 
