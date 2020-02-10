@@ -133,11 +133,11 @@ h4 {
 
 /** products **/
 
-.product-container {
+/* .product-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
 .product {
     border: 1px solid #b5b5b5;

@@ -8,6 +8,14 @@
   flex-grow: .1;
 }
 
+/* Main Flex boxing */
+.gallary-mainContent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
 
 
 

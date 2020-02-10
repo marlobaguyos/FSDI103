@@ -9,12 +9,21 @@ body {
   font-family: 'Barlow Condensed', sans-serif;
   font: 16px;
   line-height: 1.5;
-  background-color:  #EBE65E;
+  /* background-color:  #EBE65E; */
+  background-color: rgb(38, 37, 37);
+}
+
+img {
+  max-width: 100%;
 }
 
 
 h1 {
-  font-size: 38px;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 /* Header Styling */
@@ -23,7 +32,7 @@ h1 {
   background-image: url(../img/Logo/Original.png);
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   min-height: 50%;
 }
 
@@ -64,8 +73,26 @@ h1 {
   text-align: center;
 }
 
+.fw-700 {
+  color: #ABABAB;
+  font-weight: 700;
+}
+
 .fw-400 {
+  color: #141413;
   font-weight: 400;
+}
+
+.icon-characteristics .icon {
+  height: 50px;
+  width: 50px;
+}
+
+.alaska-folder {
+  border: 10px solid #b5b5b5;
+  background-color: #f5f5f5;
+  flex: 0 0 calc(33.3% - 10px);
+  margin-bottom: 20px;
 }
 
 
