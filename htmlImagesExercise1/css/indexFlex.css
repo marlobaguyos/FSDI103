@@ -15,6 +15,22 @@
   flex-wrap: wrap;
 }
 
+/* Footer Flexing */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navFooter-index {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navFooter-index li {
+  flex-grow: .1;
+}
+
 
 
 

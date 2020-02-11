@@ -24,6 +24,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  background-color:  #141413;
 }
 
 /* Header Styling */
@@ -79,7 +80,7 @@ h2 {
 }
 
 .fw-400 {
-  color: #141413;
+  color: #ABABAB;;
   font-weight: 400;
 }
 
@@ -88,11 +89,34 @@ h2 {
   width: 50px;
 }
 
-.alaska-folder {
+.image-div {
   border: 10px solid #b5b5b5;
   background-color: #f5f5f5;
   flex: 0 0 calc(33.3% - 10px);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin: 0;
+  padding-top: 0;
 }
 
+.image-div img {
+  display: block;
+}
+
+/* Footer Styling */
+.navFooter-index li,
+.navFooter-index a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  text-decoration: none;
+}
+
+.navFooter-index li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0% 1%;
+  border: 2px solid #141413;
+}
 
