@@ -107,7 +107,40 @@ h2 {
 }
 
 /* Footer Styling */
+
 .footer {
+  background-color: #ABABAB;
+}
+.navFooter-index li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  display: inline-block;
+  text-align: center;
+  margin: 0% 1%;
+  border: 2px solid #141413;
+}
+
+.navFooter-index li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  text-decoration: none;
+}
+
+.copy-right {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  padding-left: 1%;
+  padding-right: 0;
+}
+
+
+
+/* .footer {
   background-color: #ABABAB;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -130,5 +163,10 @@ h2 {
   display: inline-block;
   border: 2px solid #141413;
   margin: 1%;
+  padding-left: 0;
 }
+
+.navFooter-index a {
+  padding-left: 3%; 
+}*/
 
