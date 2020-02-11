@@ -17,18 +17,20 @@
 
 /* Footer Flexing */
 
-.footer {
+.footer-dev {
   display: flex;
   justify-content: space-between;
+  /* flex-direction: row-reverse; */
+  align-items: center;
 }
 
 .navFooter-index {
   display: flex;
-  justify-content: flex-end;
 }
 
 .navFooter-index li {
   flex-grow: .1;
+  text-align: center;
 }
 
 

@@ -44,6 +44,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1%;
+  
 }
 
 
@@ -69,6 +70,9 @@ h2 {
 }
 
 /* Main Styling */
+.main {
+  padding-bottom: 5%;
+}
 
 .text-center {
   text-align: center;
@@ -103,6 +107,15 @@ h2 {
 }
 
 /* Footer Styling */
+.footer {
+  background-color: #ABABAB;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.nav .navFooter-index {
+  padding-bottom: 2%;
+}
 .navFooter-index li,
 .navFooter-index a {
   font-size: 1.5rem;
@@ -115,8 +128,7 @@ h2 {
 .navFooter-index li {
   list-style: none;
   display: inline-block;
-  text-align: center;
-  margin: 0% 1%;
   border: 2px solid #141413;
+  margin: 1%;
 }
 
