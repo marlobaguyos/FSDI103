@@ -11,11 +11,22 @@
 /* Main Flex boxing */
 .gallary-mainContent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 /* Footer Flexing */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navFooter-index {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
 
 
 

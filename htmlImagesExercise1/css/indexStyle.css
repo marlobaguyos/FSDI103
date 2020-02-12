@@ -110,6 +110,11 @@ h2 {
 
 .footer {
   background-color: #ABABAB;
+  padding: 2% 0%;
+}
+
+.navFooter-index {
+  margin-left: 3%;
 }
 .navFooter-index li {
   font-size: 1.5rem;
@@ -118,8 +123,11 @@ h2 {
   background-color: #EBE65E;
   display: inline-block;
   text-align: center;
-  margin: 0% 1%;
   border: 2px solid #141413;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 5%;
+  margin-left: 0%;
 }
 
 .navFooter-index li a {
@@ -134,8 +142,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: 400;
   color: #141413;
-  padding-left: 1%;
-  padding-right: 0;
+  padding-right: 2%;
 }
 
 
