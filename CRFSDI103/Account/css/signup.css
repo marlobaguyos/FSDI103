@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  font: 16px;
+  line-height: 1.5;
+  /* background-color:  #EBE65E; */
+  background-color: rgb(38, 37, 37);
+}
+
+img {
+  max-width: 100%;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  background-color:  #141413;
+}
+
+/* Header Styling */
+
+.topHeader-index {
+  background-image: url(../img/Logo/Original.png);
+  background-position: center center;
+  background-size: cover;
+  height: 60vh;
+  min-height: 50%;
+}
+
+/* Nav Styling */
+
+.container {
+  width:  98%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  
+}
+
+
+.navLink-index li,
+.navLink-index a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  text-decoration: none;
+}
+
+.navLink-index li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0% 1%;
+  border: 2px solid #141413;
+  border-radius: 10px;
+}
+
+.logo-index {
+  cursor: pointer;
+}
+
+
+
+/* Footer */
+.navFooter-about li,
+.navFooter-about a,
+.copy-right {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: block;
+}
+
+.navFooter-about li {
+  padding: 0px 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 10%; */
+  background-color: #141413;
+  padding: 2% 2%;
+  margin-top: 3%;
+}
