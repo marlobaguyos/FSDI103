@@ -1,11 +1,97 @@
+/* Global */
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  font: 16px;
+  line-height: 1.5;
+  /* background-color:  #EBE65E; */
+  background-color: #ABABAB;
+}
+
+/* Header */
 .topHeader-about {
   background-image: url(../img/Logo/White\ on\ Black.png);
   background-position: center center;
   background-size: cover;
-  height: 40vh;
+  height: 60vh;
   min-height: 50%;
 }
 
-.navLink-index li{
+.container {
+  width:  98%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+}
+
+/* Header Nav */
+.navLink-about li,
+.navLink-about a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  background-color: #ABABAB;
+  text-decoration: none;
+}
+
+.navLink-about li {
+  list-style: none;
   display: inline-block;
+  text-align: center;
+  margin: 0% 1%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #141413;
+  padding: 2% 0%;
+}
+
+.navFooter-index {
+  margin-left: 3%;
+}
+.navFooter-index li,
+.navFooter-about a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  background-color: #ABABAB;
+  text-decoration: none;
+  /* font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #ABABAB;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #141413;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 5%;
+  margin-left: 0%;
+  border-radius: 10px; */
+}
+
+.navFooter-about li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0% 1%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+/* .navFooter-index li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  background-color: #ABABAB;
+  text-decoration: none;
+} */
+
+.copy-right {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  padding-right: 2%;
+  width: auto;
 }
