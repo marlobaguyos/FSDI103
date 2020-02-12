@@ -21,10 +21,9 @@
   justify-content: space-between;
 }
 
-.navFooter-index {
+.navFooter-about {
   display: flex;
   justify-content: space-around;
-  
 }
 
 

@@ -63,6 +63,7 @@ h2 {
   text-align: center;
   margin: 0% 1%;
   border: 2px solid #141413;
+  border-radius: 10px;
 }
 
 .logo-index {
@@ -107,8 +108,34 @@ h2 {
 }
 
 /* Footer Styling */
+.navFooter-about li,
+.navFooter-about a,
+.copy-right {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: block;
+}
+
+.navFooter-about li {
+  padding: 0px 20px;
+}
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 10%; */
+  background-color: #141413;
+  padding: 2% 2%;
+  margin-top: 3%;
+}
+
+
+
+
+/* .footer {
   background-color: #ABABAB;
   padding: 2% 0%;
 }
@@ -143,8 +170,7 @@ h2 {
   font-weight: 400;
   color: #141413;
   padding-right: 2%;
-}
-
+} */
 
 
 /* .footer {
@@ -175,5 +201,4 @@ h2 {
 
 .navFooter-index a {
   padding-left: 3%; 
-}*/
-
+} */
