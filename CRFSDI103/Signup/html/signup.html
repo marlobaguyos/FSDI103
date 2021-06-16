@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/signup.css">
+  <link rel="stylesheet" href="../css/signupFlex.css">
+  <title>Signup</title>
+</head>
+
+<body>
+  <header class="topHeader-index">
+    <div class="navContainer-index" >
+      <nav calss="navMenu">
+        <ul class="navLink-index">
+          <li><a href="/Users/marlobaguyos/Documents/School/FSDI103/htmlImagesExercise1/html/index.html">Home</a></li>
+          <li><a href="/Users/marlobaguyos/Documents/School/FSDI103/CSSBoxandFormsExercise/html/about.html">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Sign up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<main class="container content-centered">
+  <div class="register">
+    <h1 class="fw-300 text-center">Register</h1>
+    <img class="image" src="../img/Hawaii/72A641EE-89AC-4CF2-AE0B-44C81C20997F.jpeg" alt="turtle">
+  </div>
+
+  <h2 class="fw-300 text-center">Fill the next information</h2>
+  <form action="#" class="contact">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="fname">Name</label>
+      <input type="text" id="fname" placeholder="Type your name">
+
+      <label for="email">Email</label>
+      <input type="email" id="userEmail" placeholder="Type your email">
+
+      <label for="phone">Phone number</label>
+      <input type="tel" id="phoneNumber" placeholder="Type your Phone Number" required>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="userMessage"  cols="30" rows="10"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Product Information</legend>
+      <label for="options">Type</label>
+      <select name="options" id="type">
+        <option value="" disabled selected> ------ Select an option ------ </option>
+        <option value="sell">Sell</option>
+        <option value="buy">Buy</option>
+      </select>
+
+      <label for="noProducts">Number</label>
+      <input type="number" min="0" max="100" step="5">
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Information</legend>
+      <div class="form-contact">
+        <label for="phone">Phone</label>
+        <input type="radio" name="phone" value="telephone" id="telephone">
+        <label for="radio">email</label>
+        <input type="radio" name="radio" value="email" id="email">
+      </div>
+
+      <p>If you want to be contacted by phone, please select a day and hours:</p>
+
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="aDate">
+
+      <label for="hour">Hour</label>
+      <input type="time" name="hour" id="hour">
+    </fieldset>
+
+      <input class="button button-green" type="submit" value="Send">
+  </form>
+  
+  <footer class="footer">
+    <p class="copy-right">All the copyrights reserved 2020 &copy; Jackammo Photograpy</p>
+    <nav>
+      <ul class="navFooter-about">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

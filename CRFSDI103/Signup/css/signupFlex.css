@@ -1,0 +1,27 @@
+/* Nav Flex boxing */
+.navLink-index {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navLink-index li {
+  flex-grow: .1;
+}
+
+/* Main Flex boxing */
+.gallary-mainContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Footer Flexing */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navFooter-about {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,20 @@
+/* header nav */
+.navLink-about {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navLink-about li {
+  flex-grow: .1;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navFooter-about {
+  display: flex;
+  justify-content: space-around;
+}

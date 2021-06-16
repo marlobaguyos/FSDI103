@@ -1,0 +1,204 @@
+/* Global Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  font: 16px;
+  line-height: 1.5;
+  /* background-color:  #EBE65E; */
+  background-color: rgb(38, 37, 37);
+}
+
+img {
+  max-width: 100%;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  background-color:  #141413;
+}
+
+/* Header Styling */
+
+.topHeader-index {
+  background-image: url(../img/Logo/Original.png);
+  background-position: center center;
+  background-size: cover;
+  height: 60vh;
+  min-height: 50%;
+}
+
+/* Nav Styling */
+
+.container {
+  width:  98%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  
+}
+
+
+.navLink-index li,
+.navLink-index a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  text-decoration: none;
+}
+
+.navLink-index li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0% 1%;
+  border: 2px solid #141413;
+  border-radius: 10px;
+}
+
+.logo-index {
+  cursor: pointer;
+}
+
+/* Main Styling */
+.main {
+  padding-bottom: 5%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fw-700 {
+  color: #ABABAB;
+  font-weight: 700;
+}
+
+.fw-400 {
+  color: #ABABAB;;
+  font-weight: 400;
+}
+
+.icon-characteristics .icon {
+  height: 50px;
+  width: 50px;
+}
+
+.image-div {
+  border: 10px solid #b5b5b5;
+  background-color: #f5f5f5;
+  flex: 0 0 calc(33.3% - 10px);
+  /* margin-bottom: 20px; */
+  margin: 0;
+  padding-top: 0;
+}
+
+.image-div img {
+  display: block;
+}
+
+/* Footer Styling */
+.navFooter-about li,
+.navFooter-about a,
+.copy-right {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: block;
+}
+
+.navFooter-about li {
+  padding: 0px 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 10%; */
+  background-color: #141413;
+  padding: 2% 2%;
+  margin-top: 3%;
+}
+
+
+
+
+/* .footer {
+  background-color: #ABABAB;
+  padding: 2% 0%;
+}
+
+.navFooter-index {
+  margin-left: 3%;
+}
+.navFooter-index li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #141413;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 5%;
+  margin-left: 0%;
+}
+
+.navFooter-index li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  text-decoration: none;
+}
+
+.copy-right {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  padding-right: 2%;
+} */
+
+
+/* .footer {
+  background-color: #ABABAB;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.nav .navFooter-index {
+  padding-bottom: 2%;
+}
+.navFooter-index li,
+.navFooter-index a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #141413;
+  background-color: #EBE65E;
+  text-decoration: none;
+}
+
+.navFooter-index li {
+  list-style: none;
+  display: inline-block;
+  border: 2px solid #141413;
+  margin: 1%;
+  padding-left: 0;
+}
+
+.navFooter-index a {
+  padding-left: 3%; 
+} */
